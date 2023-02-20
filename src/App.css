@@ -1,0 +1,46 @@
+
+.boxes{
+  display: flex;
+  justify-content: center;
+  
+}
+
+h1{
+  display: flex;
+  justify-content: center;
+}
+.box {
+   padding: 10px;
+  border-radius: 10px;
+  height: 200px;
+  width: 250px;
+  margin: 30px;
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+ text-align: center;
+}
+
+.box:nth-of-type(1) {
+  background-color: red;
+  border: 1px solid red;
+  color: white;
+}
+
+.box:nth-of-type(2) {
+  background-color: maroon;
+  border: 1px solid maroon;
+  color: white;
+}
+
+.box:nth-of-type(3) {
+  background-color: blue;
+  border: 1px solid blue;
+  color: white;
+}
+
+.box:hover {
+  background-color: transparent;
+  color: black;
+}
+
